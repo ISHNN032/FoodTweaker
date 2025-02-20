@@ -1,4 +1,5 @@
 ﻿using Il2Cpp;
+using Il2CppSystem.Collections.Generic;
 using ModSettings;
 
 namespace FoodTweaker
@@ -2000,11 +2001,12 @@ namespace FoodTweaker
 
         internal void ApplyPresetMeat()
         {
+            var preset = this.presetMeat;
             var choice = this.propertyMeat;
             Reload();
             this.propertyMeat = choice;
 
-            if (this.presetMeat == PresetChoice.Default)
+            if (preset == PresetChoice.Default)
             {
                 this.presetMeat = PresetChoice.Default;
                 // MEAT SHRINKAGE
@@ -2046,7 +2048,7 @@ namespace FoodTweaker
                 this.wolfCookedTime = Main.defaultWolfTime;
                 this.cougarCookedTime = Main.defaultCougarTime;
             }
-            else if (this.presetMeat == PresetChoice.Realistic)
+            else if (preset == PresetChoice.Realistic)
             {
                 this.presetMeat = PresetChoice.Realistic;
                 // MEAT SHRINKAGE
@@ -2094,11 +2096,12 @@ namespace FoodTweaker
 
         internal void ApplyPresetFish()
         {
+            var preset = this.presetFish;
             var choice = this.propertyFish;
             Reload();
             this.propertyFish = choice;
 
-            if (this.presetFish == PresetChoice.Default)
+            if (preset == PresetChoice.Default)
             {
                 this.presetFish = PresetChoice.Default;
                 // FISH SHRINKAGE
@@ -2144,7 +2147,7 @@ namespace FoodTweaker
                 this.redIrishLordCookedTime = Main.defaultRedIrishLordTime;
                 this.rockfishCookedTime = Main.defaultRockfishTime;
             }
-            else if (this.presetFish == PresetChoice.Realistic)
+            else if (preset == PresetChoice.Realistic)
             {
                 this.presetFish = PresetChoice.Realistic;
                 // FISH SHRINKAGE
@@ -2195,11 +2198,12 @@ namespace FoodTweaker
 
         internal void ApplyPresetDrinks()
         {
+            var preset = this.presetDrinks;
             var choice = this.propertyDrinks;
             Reload();
             this.propertyDrinks = choice;
 
-            if (this.presetDrinks == PresetChoice.Default)
+            if (preset == PresetChoice.Default)
             {
                 this.presetDrinks = PresetChoice.Default;
                 //DRINKS CALORIES
@@ -2255,7 +2259,7 @@ namespace FoodTweaker
                 this.reishiTeaWarmTime = Main.defaultReishiTeaWarmTime;
                 this.roseHipTeaWarmTime = Main.defaultRoseHipTeaWarmTime;
             }
-            else if (this.presetDrinks == PresetChoice.Realistic)
+            else if (preset == PresetChoice.Realistic)
             {
                 this.presetDrinks = PresetChoice.Realistic;
                 //DRINKS CALORIES
@@ -2316,11 +2320,12 @@ namespace FoodTweaker
 
         internal void ApplyPresetOtherFood()
         {
+            var preset = this.presetOtherFood;
             var choice = this.propertyOtherFood;
             Reload();
             this.propertyOtherFood = choice;
 
-            if (this.presetOtherFood == PresetChoice.Default)
+            if (preset == PresetChoice.Default)
             {
                 this.presetOtherFood = PresetChoice.Default;
                 //OTHER FOOD CALORIES
@@ -2433,7 +2438,7 @@ namespace FoodTweaker
                 this.cannedCornWarmTime = Main.defaultCannedCornWarmTime;
                 this.cannedPineappleWarmTime = Main.defaultCannedPineappleWarmTime;
             }
-            else if (this.presetOtherFood == PresetChoice.Realistic)
+            else if (preset == PresetChoice.Realistic)
             {
                 this.presetOtherFood = PresetChoice.Realistic;
                 //OTHER FOOD CALORIES
@@ -2551,12 +2556,12 @@ namespace FoodTweaker
 
         internal void ApplyPresetRecipe()
         {
-
+            var preset = this.presetRecipe;
             var choice = this.propertyRecipe;
             Reload();
             this.propertyRecipe = choice;
 
-            if (this.presetRecipe == PresetChoice.Default)
+            if (preset == PresetChoice.Default)
             {
                 this.presetRecipe = PresetChoice.Default;
                 //RECIPES CALORIES
@@ -2716,7 +2721,7 @@ namespace FoodTweaker
                 this.soupPtarmiganWarmTime = Main.defaultSoupPtarmiganWarmTime;
                 this.soupRabbitWarmTime = Main.defaultSoupRabbitWarmTime;
             }
-            else if (this.presetRecipe == PresetChoice.Realistic)
+            else if (preset == PresetChoice.Realistic)
             {
                 this.presetRecipe = PresetChoice.Realistic;
                 //RECIPES CALORIES

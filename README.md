@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/4bf8e4a1-97ea-4296-877e-c3c4b11c13cd)
+![image](https://github.com/user-attachments/assets/d5ce7bd2-d36e-43c1-a14a-40f0b316e485)
+
 # FOOD TWEAKER
 
 ## FEATURES:
@@ -23,10 +24,10 @@ I'm happy to accept any PR that will improve it.
 
 ## DATA SOURCES
 
-[Alaska Department of Fish and Game](https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating)
-[Source 1](https://nutritiondata.self.com/facts/ethnic-foods/10462/2)
-[Source 2](https://www.healthbenefitstimes.com/cattail/)
-[Source 3](https://www.lybrate.com/topic/benefits-of-cattail-and-its-side-effects)
+* [Alaska Department of Fish and Game](https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating)
+* [Source 1](https://nutritiondata.self.com/facts/ethnic-foods/10462/2)
+* [Source 2](https://www.healthbenefitstimes.com/cattail/)
+* [Source 3](https://www.lybrate.com/topic/benefits-of-cattail-and-its-side-effects)
 
   * If anyone has relevant real-world experience/data to share, you're very welcome to send me a message (#romain on the discord server).
 

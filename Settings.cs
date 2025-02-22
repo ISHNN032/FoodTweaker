@@ -1239,7 +1239,7 @@ namespace FoodTweaker
         public int ptarmiganMeatPie = 250;
 
         [Name(     "Ptarmigan Stew")]
-        [Description("Default Game Value: 900\nRealistic Value: 1205")]
+        [Description("Default Game Value: 900\nRealistic Value: 738")]
         [Slider(250, 2000, 351, NumberFormat = "{0:d} kcal")]
         public int ptarmiganMeatStew = 900;
 
@@ -1249,8 +1249,8 @@ namespace FoodTweaker
         public int pemmicanBar = 450;
 
         [Name(     "Prepper's Pie")]
-        [Description("Default Game Value: 350\nRealistic Value: 96")]
-        [Slider(100, 1000, 181, NumberFormat = "{0:d} kcal")]
+        [Description("Default Game Value: 350\nRealistic Value: 1205")]
+        [Slider(250, 2000, 351, NumberFormat = "{0:d} kcal")]
         public int cookedPieForagers = 350;
 
         [Name(     "Porter's Soup")]
@@ -2580,7 +2580,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPie = Main.defaultPtarmiganMeatPieCalories;
                 this.ptarmiganMeatStew = Main.defaultPtarmiganMeatStewCalories;
                 this.cookedPieForagers = Main.defaultCookedPieForagersCalories;
-                this.rabbitMeatPie = Main.defaultMeatPieCalories;
+                this.rabbitMeatPie = Main.defaultRabbitMeatPieCalories;
                 this.rabbitMeatStew = Main.defaultRabbitMeatStewCalories;
                 this.meatStew = Main.defaultMeatStewCalories;
                 this.roseHipFruitPie = Main.defaultRoseHipFruitPieCalories;
@@ -2609,7 +2609,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPieVit = Main.defaultPtarmiganMeatPieVit;
                 this.ptarmiganMeatStewVit = Main.defaultPtarmiganMeatStewVit;
                 this.cookedPieForagersVit = Main.defaultCookedPieForagersVit;
-                this.rabbitMeatPieVit = Main.defaultMeatPieVit;
+                this.rabbitMeatPieVit = Main.defaultRabbitMeatPieVit;
                 this.rabbitMeatStewVit = Main.defaultRabbitMeatStewVit;
                 this.meatStewVit = Main.defaultMeatStewVit;
                 this.roseHipFruitPieVit = Main.defaultRoseHipFruitPieVit;
@@ -2638,7 +2638,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPieHydro = Main.defaultPtarmiganMeatPieHydro;
                 this.ptarmiganMeatStewHydro = Main.defaultPtarmiganMeatStewHydro;
                 this.cookedPieForagersHydro = Main.defaultCookedPieForagersHydro;
-                this.rabbitMeatPieHydro = Main.defaultMeatPieHydro;
+                this.rabbitMeatPieHydro = Main.defaultRabbitMeatPieHydro;
                 this.rabbitMeatStewHydro = Main.defaultRabbitMeatStewHydro;
                 this.meatStewHydro = Main.defaultMeatStewHydro;
                 this.roseHipFruitPieHydro = Main.defaultRoseHipFruitPieHydro;
@@ -2667,7 +2667,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPiePrepTime = Main.defaultPtarmiganMeatPiePrepTime;
                 this.ptarmiganMeatStewPrepTime = Main.defaultPtarmiganMeatStewPrepTime;
                 this.cookedPieForagersPrepTime = Main.defaultCookedPieForagersPrepTime;
-                this.rabbitMeatPiePrepTime = Main.defaultMeatPiePrepTime;
+                this.rabbitMeatPiePrepTime = Main.defaultRabbitMeatPiePrepTime;
                 this.rabbitMeatStewPrepTime = Main.defaultRabbitMeatStewPrepTime;
                 this.meatStewPrepTime = Main.defaultMeatStewPrepTime;
                 this.roseHipFruitPiePrepTime = Main.defaultRoseHipFruitPiePrepTime;
@@ -2696,7 +2696,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPieTime = Main.defaultPtarmiganMeatPieTime;
                 this.ptarmiganMeatStewTime = Main.defaultPtarmiganMeatStewTime;
                 this.cookedPieForagersTime = Main.defaultCookedPieForagersTime;
-                this.rabbitMeatPieTime = Main.defaultMeatPieTime;
+                this.rabbitMeatPieTime = Main.defaultRabbitMeatPieTime;
                 this.rabbitMeatStewTime = Main.defaultRabbitMeatStewTime;
                 this.meatStewTime = Main.defaultMeatStewTime;
                 this.roseHipFruitPieTime = Main.defaultRoseHipFruitPieTime;
@@ -2740,7 +2740,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPie = Main.realisticPtarmiganMeatPieCalories;
                 this.ptarmiganMeatStew = Main.realisticPtarmiganMeatStewCalories;
                 this.cookedPieForagers = Main.realisticCookedPieForagersCalories;
-                this.rabbitMeatPie = Main.realisticMeatPieCalories;
+                this.rabbitMeatPie = Main.realisticRabbitMeatPieCalories;
                 this.rabbitMeatStew = Main.realisticRabbitMeatStewCalories;
                 this.meatStew = Main.realisticMeatStewCalories;
                 this.roseHipFruitPie = Main.realisticRoseHipFruitPieCalories;
@@ -2769,7 +2769,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPieVit = Main.realisticPtarmiganMeatPieVit;
                 this.ptarmiganMeatStewVit = Main.realisticPtarmiganMeatStewVit;
                 this.cookedPieForagersVit = Main.realisticCookedPieForagersVit;
-                this.rabbitMeatPieVit = Main.realisticMeatPieVit;
+                this.rabbitMeatPieVit = Main.realisticRabbitMeatPieVit;
                 this.rabbitMeatStewVit = Main.realisticRabbitMeatStewVit;
                 this.meatStewVit = Main.realisticMeatStewVit;
                 this.roseHipFruitPieVit = Main.realisticRoseHipFruitPieVit;
@@ -2798,7 +2798,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPieHydro = Main.realisticPtarmiganMeatPieHydro;
                 this.ptarmiganMeatStewHydro = Main.realisticPtarmiganMeatStewHydro;
                 this.cookedPieForagersHydro = Main.realisticCookedPieForagersHydro;
-                this.rabbitMeatPieHydro = Main.realisticMeatPieHydro;
+                this.rabbitMeatPieHydro = Main.realisticRabbitMeatPieHydro;
                 this.rabbitMeatStewHydro = Main.realisticRabbitMeatStewHydro;
                 this.meatStewHydro = Main.realisticMeatStewHydro;
                 this.roseHipFruitPieHydro = Main.realisticRoseHipFruitPieHydro;
@@ -2827,7 +2827,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPiePrepTime = Main.realisticPtarmiganMeatPiePrepTime;
                 this.ptarmiganMeatStewPrepTime = Main.realisticPtarmiganMeatStewPrepTime;
                 this.cookedPieForagersPrepTime = Main.realisticCookedPieForagersPrepTime;
-                this.rabbitMeatPiePrepTime = Main.realisticMeatPiePrepTime;
+                this.rabbitMeatPiePrepTime = Main.realisticRabbitMeatPiePrepTime;
                 this.rabbitMeatStewPrepTime = Main.realisticRabbitMeatStewPrepTime;
                 this.meatStewPrepTime = Main.realisticMeatStewPrepTime;
                 this.roseHipFruitPiePrepTime = Main.realisticRoseHipFruitPiePrepTime;
@@ -2856,7 +2856,7 @@ namespace FoodTweaker
                 this.ptarmiganMeatPieTime = Main.realisticPtarmiganMeatPieTime;
                 this.ptarmiganMeatStewTime = Main.realisticPtarmiganMeatStewTime;
                 this.cookedPieForagersTime = Main.realisticCookedPieForagersTime;
-                this.rabbitMeatPieTime = Main.realisticMeatPieTime;
+                this.rabbitMeatPieTime = Main.realisticRabbitMeatPieTime;
                 this.rabbitMeatStewTime = Main.realisticRabbitMeatStewTime;
                 this.meatStewTime = Main.realisticMeatStewTime;
                 this.roseHipFruitPieTime = Main.realisticRoseHipFruitPieTime;

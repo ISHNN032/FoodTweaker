@@ -25,7 +25,7 @@ namespace FoodTweaker
 
         }
 
-        public static GearItem GetGearItemPrefab(string name) => GearItem.LoadGearItemPrefab(name).GetComponent<GearItem>();
+        public static GearItem GetGearItemPrefab(string name) => GearItem.LoadGearItemPrefab(name);
 
         public static void UpdateGearItemPrefab(string name, int calories, int hydration, int vitamin, bool warmingBuff = false)
         {
